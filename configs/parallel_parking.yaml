@@ -1,0 +1,19 @@
+# configs/parallel_parking.yaml
+defaults: ["defaults"]
+
+task: parallel_parking
+logdir: ./dreamer_logs
+
+run:
+  script: train
+  steps: 100000
+  eval_every: 10000
+
+envs:
+  num: 1
+
+batch_size: 16
+batch_length: 64
+
+replay:
+  size: 100000
