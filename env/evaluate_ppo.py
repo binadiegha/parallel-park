@@ -5,12 +5,12 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import DummyVecEnv
 from stable_baselines3.common.monitor import Monitor
 import imageio
-import cv2  # 👈 Add this for frame resizing
-import advanced_parallel_parking_env
+import cv2
+import parallel_parking_env
 
 def evaluate_ppo_agent(
     model_path: str = "./models/ppo_parking_final.zip",
-    env_id: str = "advanced-parallel-parking-v0",
+    env_id: str = "parallel-parking-v0",
     n_episodes: int = 5,
     render: bool = False,
     record_videos: bool = True,
