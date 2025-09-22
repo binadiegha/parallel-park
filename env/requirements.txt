@@ -1,0 +1,10 @@
+stable-baselines3
+imageio[ffmpeg]
+pygame
+numpy
+gymnasium
+matplotlib
+scipy
+highway-env
+tensorboard
+stable-baselines3[extra]
