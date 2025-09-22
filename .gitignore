@@ -147,5 +147,4 @@ jupyter_execute
 # IDE
 .idea
 
-racetrack_oval_ppo/
-"env/" 
+racetrack_oval_ppo/ 
